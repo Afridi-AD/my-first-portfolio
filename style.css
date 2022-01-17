@@ -1,7 +1,11 @@
 /*-----
 ----- Common css------ */
+
 body{
     font-family: 'Poppins', sans-serif;
+}
+section{
+    display: flex;
 }
 
 /* heading section   */
@@ -13,6 +17,8 @@ h1{
     margin-left: 5px;
 }
 
+/* ----
+----letter section--- */
 
 .first-letter {
    
@@ -34,9 +40,8 @@ h1{
     width: 50%;
     padding-left: 80px;
 }
-section{
-    display: flex;
-}
+
+
 .link-btn{
     text-decoration: none;
     background-color: tomato;
@@ -49,6 +54,7 @@ section{
 p{
     margin-left: 40px;
 }
+/*------ about section----- */
 .more-about-me{
     text-align: justify;
     font-size: 18px;
@@ -56,6 +62,10 @@ p{
     color: tomato;
     margin-top: 20px;
 }
+
+/*----- 
+------mission section----- */
+
 .mission{
     margin-left: 470px;
     font-size: 20px;
@@ -97,6 +107,10 @@ p{
 .mission-text p{
     font-size: 10px;
 }
+
+/*------
+----- coding section----- */
+
 .coding-tex{
     width: 70%;
 }
@@ -115,6 +129,9 @@ p{
 .coding-tex h1{
     margin: 40px 30px;
 }
+/*--------
+------ global section----- */
+
 .global-section h1{
     margin-left: 30px;
 }
@@ -126,6 +143,10 @@ p{
     width: 50%;
     margin-left: 50px;
 }
+
+/*---------- 
+-----application -------- */
+
 .application-section span{
     color: rgb(226, 163, 46);
 }
@@ -151,6 +172,9 @@ p{
     margin-left: 30px;
     margin-top: 20px;
 }
+
+/* ----------
+-----footer section------ */
 footer{
     text-align: center;
     background-color: black;
